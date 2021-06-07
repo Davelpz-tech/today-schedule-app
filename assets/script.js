@@ -35,7 +35,6 @@ $('.saveBtn').on('click', function(){
     var save = $(this).siblings('.description').val();
     var timeId = $(this).parent().attr('id');
     localStorage.setItem(timeId, save);
-    console.log(timeId, save);
 })
 /* ----------------------------------------------------- */
 
